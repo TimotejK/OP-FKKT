@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="cloze">
+    <name>
+      <text>Analiza datotek - 6eeb6c5e</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Sedaj uporabite pripravljeno kodo na pravih podatkih. <br>Prenesite si datoteki <a href="https://timotejk.github.io/OP-FKKT/Naloga10/proceduralno/6eeb6c5e/poraba_energije.csv">poraba_energije.csv</a> in <a href="https://timotejk.github.io/OP-FKKT/Naloga10/proceduralno/6eeb6c5e/proizvodnja.csv">proizvodnja.csv</a> (DATOTEKI SE RAZLIKUJETA OD DEMO DATOTEK PRI PREJŠNJEM VPRAŠANJU).</p>
+<p>S svojo kodo analizirajte datoteki in odgovorite na spodnja vprašanja.</p>
+<p><strong>Za vsako linijo vpišite porabo linije.</strong><br>
+Linija L1: {1:NUMERICAL:=391702.0:0.1#Pravilno} kWs<br>
+Linija L2: {1:NUMERICAL:=374238.0:0.1#Pravilno} kWs<br>
+Linija L3: {1:NUMERICAL:=204471.0:0.1#Pravilno} kWs<br>
+Linija L4: {1:NUMERICAL:=157323.0:0.1#Pravilno} kWs<br>
+Linija L5: {1:NUMERICAL:=182031.5:0.1#Pravilno} kWs<br>
+Linija L6: {1:NUMERICAL:=142473.5:0.1#Pravilno} kWs<br>
+Linija L7: {1:NUMERICAL:=217747.5:0.1#Pravilno} kWs<br>
+Linija L8: {1:NUMERICAL:=295836.5:0.1#Pravilno} kWs<br>
+Linija L9: {1:NUMERICAL:=183089.5:0.1#Pravilno} kWs<br>
+Linija L10: {1:NUMERICAL:=299748.5:0.1#Pravilno} kWs<br></p>
+<p><strong>Vnesi prvi čas, ko se je pojavila fantomska poraba:<br></strong> {10:NUMERICAL:=80000:0.1#Pravilno}<strong><br></strong></p>
+<pre><strong>Izberi katere linije so nestabilne:<br></strong>{10:MULTIRESPONSE:=L1~=L2~=L3~=L4~=L5~=L6~=L7~=L8~=L9~=L10}</pre>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+</quiz>

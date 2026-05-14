@@ -1,0 +1,22 @@
+Sedaj uporabite pripravljeno kodo na pravih podatkih.
+Prenesite si datoteki poraba_energije.csv in proizvodnja.csv (DATOTEKI SE RAZLIKUJETA OD DEMO DATOTEK PRI PREJŠNJEM VPRAŠANJU).
+
+S svojo kodo analizirajte datoteki in odgovorite na spodnja vprašanja.
+
+Za vsako linijo vpišite porabo linije.
+Linija L1: {1:NUMERICAL:=208406.0:0.1#Pravilno} kWs
+Linija L2: {1:NUMERICAL:=313641.0:0.1#Pravilno} kWs
+Linija L3: {1:NUMERICAL:=155070.0:0.1#Pravilno} kWs
+Linija L4: {1:NUMERICAL:=211338.5:0.1#Pravilno} kWs
+Linija L5: {1:NUMERICAL:=63508.0:0.1#Pravilno} kWs
+Linija L6: {1:NUMERICAL:=239009.5:0.1#Pravilno} kWs
+Linija L7: {1:NUMERICAL:=145206.0:0.1#Pravilno} kWs
+Linija L8: {1:NUMERICAL:=50524.5:0.1#Pravilno} kWs
+Linija L9: {1:NUMERICAL:=128616.0:0.1#Pravilno} kWs
+Linija L10: {1:NUMERICAL:=94985.5:0.1#Pravilno} kWs
+
+Vnesi prvi čas, ko se je pojavila fantomska poraba:
+{10:NUMERICAL:=80000:0.1#Pravilno}
+
+Izberi katere linije so nestabilne:
+{10:MULTIRESPONSE:=L1~=L2~=L3~=L4~=L5~=L6~L7~L8~L9~L10}
